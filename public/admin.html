@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    
+    <h1>Product List</h1>
+    <div id="product-list"></div>
+    <button onclick="showAddForm()">Add Product</button>
+    <div id="add-form" style="display:none;">
+        <h2>Add New Product</h2>
+        <input type="text" id="productName" placeholder="Product Name">
+        <input type="text" id="productDescription" placeholder="Product Description">
+        <input type="text" id="productLink" placeholder="Product Link">
+        <input type="text" id="productImage" placeholder="Image URL">
+        <button onclick="addProduct()">Add</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
