@@ -8,7 +8,6 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
-// Set up multer for handling file uploads
 const storage = multer.diskStorage({
     destination: 'uploads/',
     filename: (req, file, callback) => {
@@ -18,18 +17,18 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage });
 
-// Serve static files (HTML, CSS, JavaScript)
-// Serve a different HTML file (e.g., index-new.html) instead of the default index.html
-app.use(express.static('public', { index: 'admin.html' }));
+app.use(express.static('public', { index: 'index.html' }));
+
+// app.use(express.static('public', { index: 'admin.html' }));
 
 
-// Define an API endpoint to get products
+//  to get products
 app.get('/api/products', (req, res) => {
     const products = readProducts();
     res.json(products);
 });
 
-// Define an API endpoint to add a product
+// to add a product
 app.post('/api/products', (req, res) => {
     const { name, description, link, image } = req.body;
 
@@ -53,7 +52,7 @@ app.post('/api/products', (req, res) => {
     res.json({ message: 'Product added successfully' });
 });
 
-// Define an API endpoint to delete a product by ID
+//to delete a product by ID
 app.delete('/api/products/:id', (req, res) => {
     const productId = parseInt(req.params.id);
     const products = readProducts();
@@ -68,7 +67,6 @@ app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
 
-// Helper functions to read and write products from/to a JSON file
 function readProducts() {
     const data = fs.readFileSync('products.json', 'utf-8');
     return JSON.parse(data);

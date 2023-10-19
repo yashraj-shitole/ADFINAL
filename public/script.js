@@ -1,7 +1,6 @@
-// Define a function to fetch and display products from JSON file
 function showProducts() {
     const productList = document.getElementById('product-list');
-    productList.innerHTML = ''; // Clear existing content
+    productList.innerHTML = ''; 
 
     fetch('/api/products')
         .then(response => response.json())
@@ -9,20 +8,17 @@ function showProducts() {
             
 products.forEach(product => {
     const productDiv = document.createElement('div');
-    productDiv.className = 'product-card'; // Apply the product card style
+    productDiv.className = 'product-card'; 
 
-    // Create and style the product image
     const productImage = document.createElement('img');
     productImage.src = product.image;
     productImage.alt = product.name;
-    productImage.className = 'product-image'; // Apply the image style
+    productImage.className = 'product-image'; 
 
-    // Create and style the product name
     const productName = document.createElement('h3');
     productName.textContent = product.name;
-    productName.className = 'product-name'; // Apply the product name style
+    productName.className = 'product-name'; 
 
-    // Create and style the product description
     const productDescription = document.createElement('p');
     productDescription.textContent = product.description;
     productDescription.className = 'product-description'; // Apply the description style
