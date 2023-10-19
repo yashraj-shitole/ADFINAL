@@ -75,6 +75,7 @@ products.forEach(product => {
   productDiv.appendChild(productImage);
   productDiv.appendChild(productName);
   productDiv.appendChild(productDescription);
+  productDiv.appendChild(productLink);
   
 
   productList.appendChild(productDiv);
