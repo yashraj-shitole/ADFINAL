@@ -10,6 +10,7 @@ products.forEach(product => {
     const productDiv = document.createElement('div');
     productDiv.className = 'product-card'; 
 
+    
     const productImage = document.createElement('img');
     productImage.src = product.image;
     productImage.alt = product.name;

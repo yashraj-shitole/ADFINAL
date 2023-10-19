@@ -22,6 +22,7 @@ app.use(express.static('public', { index: 'index.html' }));
 // app.use(express.static('public', { index: 'admin.html' }));
 
 
+
 //  to get products
 app.get('/api/products', (req, res) => {
     const products = readProducts();
