@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AD</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+
+
+
 
 </head>
-<body>
-
+<body style="background-color: #f9fafb;" >
     
     <header class="sticky top-0 z-30 w-full  px-2 py-4 bg-white sm:px-4">
         <div class="flex items-center gap-x-3 justify-between mx-auto max-w-7xl">
           <a href="/" class="w-80 flex items-center">
               <img src="logo.png" alt="">
-
           </a>
           <div class="flex items-center space-x-5">
             <div class="hidden space-x-1 gap-x-3 md:inline-flex">
-              <a href="index.html" class="btn btn-sm btn-link">Home</a>
+              <a href="#" class="btn btn-sm btn-link">Home</a>
               <a href="aboutUs.html" class="btn btn-sm btn-link">About Us</a>
               <a href="services.html" class="btn btn-sm btn-link">Services</a>
               <a href="products.html" class="btn btn-sm btn-link">Products</a>
@@ -61,7 +63,7 @@
                   </svg>
                   <span class="sr-only">Close Menu</span>
                 </button>
-                <a href="/index.html" class="btn btn-sm btn-link">Home</a>
+                <a href="#" class="btn btn-sm btn-link">Home</a>
               <a href="/aboutUs.html" class="btn btn-sm btn-link">About Us</a>
               <a href="/services.html" class="btn btn-sm btn-link">Services</a>
               <a href="/products.html" class="btn btn-sm btn-link">Products</a>
@@ -69,14 +71,54 @@
             </div>
           </div>
         </div>
+        
       </header>
       
 
 
-      <div id="product-list"></div>
 
 
-    
+
+
+
+
+
+      <!-- about us -->
+      <section class=" pt-32 pb-32 pr-10 pl-10 my-12 text-gray-600 body-font">
+        <div class="container mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h2 class="text-4xl mb-8 text-black tracking-widest font-medium title-font mb-1">Business Consulting Services</h2>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Together we can envision, inspire and transform your business.</h1>
+            <p class="leading-relaxed text-xl">Whether you’re experiencing challenges with company culture, internal processes or need a new business strategy to reflect your envisioned future, we’re here to help.
+
+                Our business consultants can help you adapt to today’s market dynamics and continue to compete no matter the threats you might be facing. Tools to enable optimal remote work can help minimize or prevent disruption in your operations.
+                
+                We can scale our services to support change efforts ranging from tactical improvements through large scale transformation efforts. Our business consultants are experienced leaders and practitioners who are customer-focused, are delivery-excellence driven, and can navigate and manage complex projects, working effectively across diverse business and technology organizations.
+                
+                We place a heavy focus on enabling and sustaining change, as well as establishing platforms for continuous improvement. To do so, we seamlessly integrate our business consulting, technology and industry practices to help companies thrive.
+                
+                Not sure what you need? Contact us to learn how to keep pace in an ever-changing digital world.</p>
+          </div>
+          
+          <button class="flex mx-auto mt-16 text-white bg-black border-2 border-black py-2 px-8 focus:outline-none hover:bg-white hover:text-black  rounded text-lg">Contact us today to learn more about our services!</button>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <!-- Footer -->
       <footer class="px-4 py-20 text-white bg-black">
         <div class="mx-auto max-w-7xl flex items-center justify-evenly">
@@ -103,9 +145,12 @@
           </div>
         </div>
       </footer>
+      
+      
+      
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/kutty@latest/dist/kutty.min.js"></script>
 
-    <script src="products.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/kutty@latest/dist/kutty.min.js"></script>
 
 </body>
 </html>
