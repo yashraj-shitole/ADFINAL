@@ -3,10 +3,19 @@
 <head>
     <title>AD</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@300,600,400,700&f[]=supreme@800,400,200,100,300,101,500,201,700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 
+
+    <style>
+      *{
+        font-family: 'General Sans', sans-serif;
+font-family: 'Supreme', sans-serif;
+      }
+    </style>
 </head>
-<body>
+<body style="background-color: #f9fafb;">
 
     
     <header class="sticky top-0 z-30 w-full  px-2 py-4 bg-white sm:px-4">
@@ -73,7 +82,10 @@
       
 
 
-      <div id="product-list"></div>
+      <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
+        <div id="product-list"></div>
+      </div>
+      
 
 
     
