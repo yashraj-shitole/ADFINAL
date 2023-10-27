@@ -84,16 +84,5 @@ products.forEach(product => {
       .catch(error => console.error('Error fetching products:', error));
 }
 
-// Define a function to add a new product
-
-
-// Define a function to clear the add product form
-
-// Define a function to show the add product form
-
-
-// Define a function to delete a product
-
-
-// Call the showProducts function when the page loads
+// 
 showProducts();
