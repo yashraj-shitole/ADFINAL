@@ -50,7 +50,7 @@ products.forEach(product => {
         .catch(error => console.error('Error fetching products:', error));
 }
 
-// Define a function to add a new product
+// function to add a new product
 function addProduct() {
     const productName = document.getElementById('productName').value;
     const productDescription = document.getElementById('productDescription').value;
@@ -78,7 +78,7 @@ function addProduct() {
     })
     .then(response => response.json())
     .then(() => {
-        showProducts(); // Refresh the product list after adding
+        showProducts();
         clearAddForm();
     })
     .catch(error => console.error('Error adding product:', error));
