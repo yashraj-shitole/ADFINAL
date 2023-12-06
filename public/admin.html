@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>AD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>AD</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"rel="stylesheet">
@@ -21,7 +23,7 @@
 <body >
 
      
-    <header class="sticky top-0 z-30 w-full  px-2 py-4 bg-white sm:px-4">
+    <header class="sticky top-0 z-30 w-full px-2 py-4 bg-white sm:px-4">
         <div class="flex items-center gap-x-3 justify-between mx-auto max-w-7xl">
           <a href="/" class="w-80 flex items-center">
               <img src="logo.png" alt="">
@@ -86,7 +88,7 @@
 
 
 
-      <div class="items-center flex flex-col gap-10 ">
+      <div class="items-center flex flex-col gap-10 mx-4 sm:mx-auto sm:max-w-2xl md:max-w-4xl lg:max-w-6xl">
         <button class="w-80 text-white bg-black border-2 py-2 border-black px-6 focus:outline-none hover:bg-white hover:text-black rounded text-lg" onclick="showAddForm()">Add Product</button>
             <div id="add-form" style="display:none;">
                 <div class="flex flex-col gap-5">
@@ -114,7 +116,7 @@
 
 
           <!-- Footer -->
-          <footer class="px-4 py-20 text-white bg-black">
+          <footer class="px-4 py-10 text-white bg-black">
             <div class="mx-auto max-w-7xl flex items-center justify-evenly">
               <div class="w-full flex flex-wrap flex-row justify-evenly  gap-2 md:flex-row">
                 <nav class="mb-8">
