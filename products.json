@@ -1,19 +1,5 @@
 [
   {
-    "id": 4,
-    "name": "6 Section Wood Storage Organizer",
-    "description": "EKRON 6 Section Engineered Wood Storage Organizer Furniture for Commercial or Home Use – Safe Kids Friendly Cabinet Toy Shelf (MR-008 / Oak / 30 x 100 x 70 cm)",
-    "link": "https://www.amazon.in/EKRON-Engineered-Storage-Organizer-Commercial/dp/B0BTMHPMZN/ref=sr_1_16?crid=3RIV26BBB5LKJ&keywords=furniture&qid=1698210577&sprefix=furnitur%2Caps%2C254&sr=8-16",
-    "image": "https://m.media-amazon.com/images/I/51dka33POcL._SX355_.jpg"
-  },
-  {
-    "id": 4,
-    "name": "6 Layer Wood Bookshelf",
-    "description": "Lukzer 6 Layer Engineered Wood Bookshelf Multipurpose Home Decor Storage Rack Showcase Organizer for Living Room, Kitchen, Bedroom(MR-005/Oak Brown /180 x 33 x 24cm)",
-    "link": "https://www.amazon.in/Lukzer-Engineered-Bookshelf-Multipurpose-Organizer/dp/B0BSNPHJC4/ref=sr_1_25?crid=3RIV26BBB5LKJ&keywords=furniture&qid=1698210577&sprefix=furnitur%2Caps%2C254&sr=8-25",
-    "image": "https://m.media-amazon.com/images/I/71CSJON4FZL._SY450_.jpg"
-  },
-  {
     "id": 5,
     "name": "Plastic Cabinet",
     "description": "Nilkamal Freedom Mini Medium (FMM) Plastic Cabinet for Storage| Space & Clothes Organizer| Shelves| Cupboard| Almari| Wardrobe| Living Room| Adult & Kids| Multipurpose for Home Kitchen & Office",
@@ -40,5 +26,61 @@
     "description": "MODERN FURNITURE SHEESHAM Solid Sheesham Wood Book Shelf Wooden|Bookshelf For Home Library|Book Shelves Open Bookcase Multiple Shelf Books Rack For Office&Home (Natural Teak)",
     "link": "https://www.amazon.in/MODERN-FURNITURE-SHEESHAM-Sheesham-Bookshelf/dp/B08XPH2XC8/ref=sr_1_55?crid=1NF91YV2KCO9R&keywords=modern+furniture&qid=1698210872&sprefix=modern+furniture%2Caps%2C248&sr=8-55",
     "image": "https://m.media-amazon.com/images/I/71gIW43L01L._SY355_.jpg"
+  },
+  {
+    "id": 7,
+    "name": "NORDVIKEN Bar stool with backrest",
+    "description": "The backrest and the curved shape of the bar stool, provide good lower back support and prevent your back from getting tired. You sit comfortably, longer and with a relaxed posture.",
+    "link": "https://www.ikea.com/in/en/p/nordviken-bar-stool-with-backrest-white-00369540/",
+    "image": "https://www.ikea.com/in/en/images/products/nordviken-bar-stool-with-backrest-white__0797143_pe766709_s5.jpg?f=xl"
+  },
+  {
+    "id": 8,
+    "name": "Wardrobe with 1 door",
+    "description": "This combination is perfect if you want to use unutilised space between a frame and a wall.  Perfect where space is limited since the frame is narrow.  You can organise the inside with interiors from the HJÄLPA series – and for the exterior there are smart solutions in the LÄTTHET series.",
+    "link": "https://www.ikea.com/in/en/p/platsa-wardrobe-with-1-door-white-fonnes-white-s19425367/",
+    "image": "https://www.ikea.com/in/en/images/products/platsa-wardrobe-with-1-door-white-fonnes-white__1237269_pe917885_s5.jpg?f=xl"
+  },
+  {
+    "id": 9,
+    "name": "Shelving unit",
+    "description": "Standing or lying – the KALLAX series adapts to taste, space, needs and budget. Smooth surfaces and rounded corners give a feel of quality and you can personalise the shelving unit with inserts and boxes.",
+    "link": "https://www.ikea.com/in/en/p/kallax-shelving-unit-black-brown-70351891/#content",
+    "image": "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-black-brown__1102205_pe866558_s5.jpg?f=xl"
+  },
+  {
+    "id": 10,
+    "name": "Table top",
+    "description": "Mix and match your choice of table top and legs. By buying them separately, you can create a combination with design and size that fits perfectly into your available space.",
+    "link": "https://www.ikea.com/in/en/p/lagkapten-table-top-grey-turquoise-20569406/",
+    "image": "https://www.ikea.com/ext/ingkadam/m/7d9dafb6c6705d65/original/PH193288.jpg?f=xxl"
+  },
+  {
+    "id": 11,
+    "name": "Desk",
+    "description": "This sturdy desk is guaranteed to outlast years of coffee and hard work. You get a generous work surface and a clever solution to keep cables in place underneath.",
+    "link": "https://www.ikea.com/in/en/p/idasen-desk-black-dark-grey-s39281037/",
+    "image": "https://www.ikea.com/in/en/images/products/idasen-desk-black-dark-grey__0857079_pe709511_s5.jpg?f=xl"
+  },
+  {
+    "id": 12,
+    "name": "Drawer unit on castors",
+    "description": "A neat drawer unit on castors that you can easily roll in under the desk or move where you need it. Built-in dampers close the drawers softly and quietly ",
+    "link": "https://www.ikea.com/in/en/p/idasen-drawer-unit-on-castors-beige-30320731/#content",
+    "image": "https://www.ikea.com/in/en/images/products/idasen-drawer-unit-on-castors-beige__0856365_pe709877_s5.jpg?f=xl"
+  },
+  {
+    "id": 11,
+    "name": "Wing chair",
+    "description": "modern comfort and durable fabric, this grey wing chair will surely last for many cosy evenings at home",
+    "link": "https://www.ikea.com/in/en/p/strandmon-wing-chair-grey-30492317/",
+    "image": "https://www.ikea.com/in/en/images/products/strandmon-wing-chair-grey__0973258_pe811962_s5.jpg?f=xl"
+  },
+  {
+    "id": 12,
+    "name": "Chest of 4 drawers",
+    "description": "A clean expression that fits right in, in the bedroom or wherever you place it. Smooth-running drawers and in a choice of finishes – pick your favourite.",
+    "link": "https://www.ikea.com/in/en/p/malm-chest-of-4-drawers-white-20354646/",
+    "image": "https://www.ikea.com/in/en/images/products/malm-chest-of-4-drawers-white__1154335_pe885995_s5.jpg?f=xl"
   }
 ]

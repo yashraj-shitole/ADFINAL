@@ -1,8 +1,5 @@
 
 
-
-
-
 function showProducts() {
   const productList = document.getElementById('product-list');
   productList.innerHTML = ''; 
