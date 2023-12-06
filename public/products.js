@@ -60,16 +60,16 @@ products.forEach(product => {
 
   const productDescription = document.createElement('p');
   productDescription.textContent = product.description;
-  productDescription.className = 'product-description'; // Apply the description style
+  productDescription.className = 'product-description';
 
-  // Create and style the product link
+
   const productLink = document.createElement('a');
   productLink.href = product.link;
   productLink.target = '_blank';
   productLink.textContent = 'Product Link';
   productLink.className = 'product-link'; // Apply the link style
 
-  // Create and style the delete button
+
   
   // Append all elements to the product card container
   productDiv.appendChild(productImage);
