@@ -22,22 +22,21 @@ products.forEach(product => {
 
     const productDescription = document.createElement('p');
     productDescription.textContent = product.description;
-    productDescription.className = 'product-description'; // Apply the description style
+    productDescription.className = 'product-description';
 
-    // Create and style the product link
     const productLink = document.createElement('a');
     productLink.href = product.link;
     productLink.target = '_blank';
     productLink.textContent = 'Product Link';
-    productLink.className = 'product-link'; // Apply the link style
+    productLink.className = 'product-link'; 
 
-    // Create and style the delete button
+    // Create delete button
     const deleteButton = document.createElement('button');
     deleteButton.textContent = 'Delete';
-    deleteButton.className = 'delete-button'; // Apply the delete button style
+    deleteButton.className = 'delete-button'; 
     deleteButton.onclick = () => deleteProduct(product.id);
 
-    // Append all elements to the product card container
+    //all elements to the product card container
     productDiv.appendChild(productImage);
     productDiv.appendChild(productName);
     productDiv.appendChild(productDescription);
@@ -103,7 +102,7 @@ function deleteProduct(productId) {
     fetch(`/api/products/${productId}`, {
         method: 'DELETE',
     })
-    .then(() => showProducts()) // Refresh the product list after deletion
+    .then(() => showProducts()) 
     .catch(error => console.error('Error deleting product:', error));
 }
 

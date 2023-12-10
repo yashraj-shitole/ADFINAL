@@ -30,7 +30,7 @@ products.forEach(product => {
   productLink.href = product.link;
   productLink.target = '_blank';
   productLink.textContent = 'Product Link';
-  productLink.className = 'product-link'; // Apply the link style
+  productLink.className = 'product-link'; 
 
 
   
